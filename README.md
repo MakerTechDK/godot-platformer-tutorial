@@ -3,7 +3,7 @@
 
 This project includes the source code for my Godot Platformer Tutorials.
 
-You can watch the [related devlogs and tutorials here.](https://www.youtube.com/playlist?list=PLMQtM2GgbPEUPlBWKoJQQ29ua8uyr72o5)
+You can watch the [related tutorials here.](https://www.youtube.com/playlist?list=PLMQtM2GgbPEUPlBWKoJQQ29ua8uyr72o5)
 
 Updates are exclusive for [Patreons](https://www.patreon.com/c/MakerTech) the first month after a new video is released - after this they are open sourced on GitHub.
 
