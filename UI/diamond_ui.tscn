@@ -1,0 +1,49 @@
+[gd_scene format=3 uid="uid://c057oicxwor2f"]
+
+[ext_resource type="Texture2D" uid="uid://blllt1q0nsni6" path="res://art/gem.png" id="1_5hnj8"]
+[ext_resource type="Script" uid="uid://cfve82arjevne" path="res://UI/diamond_ui.gd" id="1_el7pc"]
+
+[sub_resource type="LabelSettings" id="LabelSettings_5hnj8"]
+font_size = 13
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_xbxn4"]
+atlas = ExtResource("1_5hnj8")
+region = Rect2(0, 0, 15, 13)
+
+[node name="DiamondUI" type="Panel" unique_id=1189040203]
+offset_right = 43.0
+offset_bottom = 16.0
+script = ExtResource("1_el7pc")
+
+[node name="Label" type="Label" parent="." unique_id=2128352176]
+custom_minimum_size = Vector2(23, 23)
+layout_mode = 1
+anchors_preset = 4
+anchor_top = 0.5
+anchor_bottom = 0.5
+offset_top = -11.5
+offset_right = 16.0
+offset_bottom = 11.5
+grow_vertical = 2
+offset_transform_enabled = true
+offset_transform_position = Vector2(2, 0)
+text = "0"
+label_settings = SubResource("LabelSettings_5hnj8")
+horizontal_alignment = 2
+vertical_alignment = 1
+
+[node name="TextureRect" type="TextureRect" parent="." unique_id=1790742723]
+layout_mode = 1
+anchors_preset = 6
+anchor_left = 1.0
+anchor_top = 0.5
+anchor_right = 1.0
+anchor_bottom = 0.5
+offset_left = -15.0
+offset_top = -6.5
+offset_bottom = 6.5
+grow_horizontal = 0
+grow_vertical = 2
+offset_transform_enabled = true
+offset_transform_position = Vector2(-2, 0)
+texture = SubResource("AtlasTexture_xbxn4")
